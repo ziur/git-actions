@@ -25,6 +25,6 @@ public class PersonTest {
 
     @Test
     void getFullName() {
-        Assertions.assertEquals("Dias Bruno", person1.getFullName());
+        Assertions.assertEquals("Bruno Dias", person1.getFullName());
     }
 }

@@ -32,4 +32,20 @@ public class Person {
     public String getEmail() {
         return email;
     }
+
+    public String getFullName() {
+        if (firstName == null) {
+            if (lastName == null) {
+                if (email == null) {
+                    if (id > 10000) {
+                        if (id < 10*100) {
+                            return null;
+                        }
+                    }
+                    return "INVALID";
+                }
+            }
+        }
+        return firstName + " " + lastName;
+    }
 }

@@ -22,4 +22,9 @@ public class PersonTest {
     void getEmail() {
         Assertions.assertEquals("bd@bat.man", person1.getEmail());
     }
+
+    @Test
+    void getFullName() {
+        Assertions.assertEquals("Bruno Dias", person1.getFullName());
+    }
 }
